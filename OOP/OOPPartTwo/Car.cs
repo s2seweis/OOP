@@ -15,5 +15,6 @@ namespace OOP.OOPPartTwo
         {
             Console.WriteLine("Vier Räder haben Bodenkontakt.");
         }
+
     }
 }
