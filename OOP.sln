@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34931.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{535EDB65-73CF-4D1F-862B-BE42E53D147F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{535EDB65-73CF-4D1F-862B-BE42E53D147F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Repetition", "OOP_Repetition\OOP_Repetition.csproj", "{BC732BA4-AFD2-4F9D-BCAF-66A9B9AA4F01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{535EDB65-73CF-4D1F-862B-BE42E53D147F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535EDB65-73CF-4D1F-862B-BE42E53D147F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535EDB65-73CF-4D1F-862B-BE42E53D147F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC732BA4-AFD2-4F9D-BCAF-66A9B9AA4F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC732BA4-AFD2-4F9D-BCAF-66A9B9AA4F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC732BA4-AFD2-4F9D-BCAF-66A9B9AA4F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC732BA4-AFD2-4F9D-BCAF-66A9B9AA4F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
