@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Repetition
+namespace OOP_Repetition.Methods
 {
 
     // Its internal, which means that
@@ -85,8 +86,20 @@ namespace OOP_Repetition
             //Console.WriteLine("An object of Car has been created!");
             Console.WriteLine($"A {brand} of the model " +
                 $"{model} has been created.");
-            IsLuxury = isLuxury;
         }
+
+        public void Drive()
+        {
+            //Console.WriteLine("I am driving!");
+            Console.WriteLine($"I'm a {Model} and I'm driving");
+        }
+
+        // Default Constructor for Car
+        public Car()
+        {
+           
+        }
+
 
     }
 }
