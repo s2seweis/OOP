@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC732BA4-AFD2-4F9D-BCAF-66A9B9AA4F01}</ProjectGuid>
+    <ProjectGuid>{885939A4-5F33-4A75-A87A-5F7B4A0C35C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOP_Repetition</RootNamespace>
-    <AssemblyName>OOP_Repetition</AssemblyName>
+    <RootNamespace>QuizAppTest</RootNamespace>
+    <AssemblyName>QuizAppTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,30 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constructors\Car.cs" />
-    <Compile Include="Constructors\Customer.cs" />
-    <Compile Include="Constructors\Index.cs" />
-    <Compile Include="Methods\Car.cs" />
-    <Compile Include="Methods\Customer.cs" />
-    <Compile Include="Methods\Index.cs" />
-    <Compile Include="Mix\Customer.cs" />
-    <Compile Include="Mix\Index.cs" />
-    <Compile Include="Mix\Rectangles.cs" />
-    <Compile Include="Parameters\Car.cs" />
-    <Compile Include="Parameters\Customer.cs" />
-    <Compile Include="Parameters\Rectangles.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Static\Car.cs" />
-    <Compile Include="Static\Customer.cs" />
-    <Compile Include="Static\Index.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Compile Include="Parameters\Index.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

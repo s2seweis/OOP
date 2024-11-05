@@ -2,6 +2,8 @@
 using OOP_Repetition.Constructors;
 using OOP_Repetition.Methods;
 using OOP_Repetition.Parameters;
+using OOP_Repetition.Static;
+using OOP_Repetition.Mix;
 
 namespace OOP_Repetition
 {
@@ -18,8 +20,17 @@ namespace OOP_Repetition
             //indexForMethodExample.IndexMainRun();
 
             // Part:3 | Parameters
-            IndexParameters indexForParameterExample = new IndexParameters();
-            indexForParameterExample.IndexMainRun();
+            //IndexParameters indexForParameterExample = new IndexParameters();
+            //indexForParameterExample.IndexMainRun(); 
+
+            // Part:4 | Static
+            //IndexStatic indexForStaticExample = new IndexStatic();
+            //indexForStaticExample.IndexMainRun();
+
+            // Part:5 | Mix
+            IndexMix indexForMixExample = new IndexMix();
+            indexForMixExample.IndexMainRun();
+
 
             Console.ReadKey(); //  A single key press
         }
