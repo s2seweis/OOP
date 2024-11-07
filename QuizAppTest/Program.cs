@@ -11,6 +11,7 @@ namespace QuizAppTest
         static void Main(string[] args)
         {
             Question[] questions = new Question[]
+            // Array defined inside of the curly brackets
             {
                 new Question(
                     "What is the capital of Germany?",  // Question Text
